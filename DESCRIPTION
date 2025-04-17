@@ -1,0 +1,24 @@
+Package: plotibcs
+Type: Package
+Title: Provides Functions To Plot IBCS-compliant Charts
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Owen", "Price",
+      email = "owenhprice@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: A data-driven interface for producing charts that closely mimic IBCS templates.
+    Users decide data grouping and some minimal formatting, but most formatting is pre-defined on purpose. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0),
+    tibble
+Config/testthat/edition: 3
+Imports:
+    dplyr,
+    ggplot2
