@@ -1,5 +1,8 @@
 # plotibcs
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+
 ### Data-driven helper functions to quickly produce IBCS-compliant charts
 
 ## Installation
@@ -10,6 +13,15 @@ You can install the development version from this repo:
 # install.packages("devtools")
 devtools::install_github("ncalm/plotibcs")
 ```
+
+## License
+
+This package is licensed under the **GNU General Public License v3.0 (GPL-3)**.
+
+You are free to use, modify, and redistribute the software under the terms of the license. Any derivative works must also be released under GPL-3.
+
+See the [LICENSE](LICENSE.md) file for full details.
+
 
 ## Included functions
 
