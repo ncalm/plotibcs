@@ -62,3 +62,8 @@ And produces this chart:
 
 <img src="images/waterfall.png" alt="Example C12 chart from table" width="50%" />
 
+In addition to using the chart in standard R scripts and in RStudio, you can use Anaconda Code from the Anaconda Toolbox for Excel add-in to run R directly in Excel. You are welcome to explore how the function works using [this example file](examples/plotibcs_plot_ibcs_waterfall.xlsx).
+
+For more details on using R in Excel, see [this blog post](https://www.anaconda.com/blog/anaconda-code-brings-r-to-excel).
+
+To install Anaconda Toolbox, select the Add-Ins button from the Home tab of the Excel ribbon and search for 'AnacondaToolbox'.
