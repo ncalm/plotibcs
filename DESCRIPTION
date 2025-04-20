@@ -1,0 +1,19 @@
+Package: plotibcs
+Title: Create IBCS-Compliant Vertical Waterfall Charts
+Version: 0.0.0.9000
+Authors@R: 
+    person("Owen", "Price", role = c("aut", "cre"))
+Description: A data-driven interface for producing charts that closely
+    mimic IBCS templates. Users decide data grouping and some minimal
+    formatting, but most formatting is pre-defined on purpose.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    ggplot2
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
