@@ -75,6 +75,9 @@ To produce the right-most chart, set var_type to "pct".
 Note that in these charts, "bad" measurements are coloured red and "good" measurements are coloured green, regardless of the sign of the measurement. For example, an increase in an expense is a positive value but a bad outcome, so it is a right-facing red bar. Similarly, a decrease of an expense is a good outcome, so it's a left-facing green bar.
 
 Similarly to the waterfall chart, the first argument is a data.frame, which must be defined as follows:
+
+<img src="images/variance_table.png" alt="Example C12 table" width="50%" />
+
 - position (integer) non null
 - type (character) non null, taking one of these values:
   - bar, for drawing a bar for a line item
