@@ -191,9 +191,9 @@ plot_ibcs_waterfall <- function(
       inherit.aes = FALSE
     ) +
     # draw the bar labels
-    geom_segment(data = df_labels,
-                 aes(x = label_x, y = x, xend = label_x, yend = x),
-                 color = "red", linewidth = 0.2) +
+    # geom_segment(data = df_labels,
+    #              aes(x = label_x, y = x, xend = label_x, yend = x),
+    #              color = "red", linewidth = 0.2) +
     # draw the bar labels
     geom_text(data = df_labels,
               aes(x = label_x, y = x, label = label, hjust = hjust, fontface = ifelse(bold, "bold", "plain")),
