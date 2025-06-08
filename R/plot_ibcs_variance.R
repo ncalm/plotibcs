@@ -178,7 +178,7 @@ plot_ibcs_variance <- function(
     theme_minimal(base_size = 11) +
     theme(
       panel.grid = element_blank(),
-      plot.title = element_text(hjust = 0.5, face = "bold")
+      plot.title.position = 'panel'
     )
 }
 
